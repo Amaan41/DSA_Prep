@@ -1,3 +1,4 @@
+#differentiate, when to append to results and when to solve in place
 def solveSudoku(board):
 
     def find_start(i):
@@ -53,3 +54,4 @@ sudoku_board = [
 ]
 solveSudoku(sudoku_board)
 print(sudoku_board)
+
